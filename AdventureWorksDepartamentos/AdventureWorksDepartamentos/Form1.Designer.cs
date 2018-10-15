@@ -1,6 +1,6 @@
 ﻿namespace AdventureWorksDepartamentos
 {
-    partial class Form1
+    partial class Departamentos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,69 +28,74 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnListar = new System.Windows.Forms.Button();
+            this.btnCrear = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnListar
             // 
-            this.button1.Location = new System.Drawing.Point(35, 50);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 65);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnListar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListar.Location = new System.Drawing.Point(35, 50);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(217, 65);
+            this.btnListar.TabIndex = 0;
+            this.btnListar.Text = "Listar Departamentos";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
-            // button2
+            // btnCrear
             // 
-            this.button2.Location = new System.Drawing.Point(337, 50);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 65);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCrear.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F);
+            this.btnCrear.Location = new System.Drawing.Point(337, 50);
+            this.btnCrear.Name = "btnCrear";
+            this.btnCrear.Size = new System.Drawing.Size(217, 65);
+            this.btnCrear.TabIndex = 1;
+            this.btnCrear.Text = "Crear Departamentos";
+            this.btnCrear.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnActualizar
             // 
-            this.button3.Location = new System.Drawing.Point(35, 171);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(217, 65);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnActualizar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F);
+            this.btnActualizar.Location = new System.Drawing.Point(35, 171);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(217, 65);
+            this.btnActualizar.TabIndex = 2;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnEliminar
             // 
-            this.button4.Location = new System.Drawing.Point(337, 171);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(217, 65);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnEliminar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F);
+            this.btnEliminar.Location = new System.Drawing.Point(337, 171);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(217, 65);
+            this.btnEliminar.TabIndex = 3;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Departamentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(593, 273);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.btnCrear);
+            this.Controls.Add(this.btnListar);
+            this.Name = "Departamentos";
+            this.Text = "Departamentos";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Button btnCrear;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }
 

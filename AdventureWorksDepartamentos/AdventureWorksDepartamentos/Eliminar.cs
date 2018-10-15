@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AdventureWorksDepartamentos
 {
-    public partial class Departamentos : Form
+    public partial class Eliminar : Form
     {
-        public Departamentos()
+        public Eliminar()
         {
             InitializeComponent();
-        }
-
-        private void btnListar_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

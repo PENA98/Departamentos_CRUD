@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AdventureWorksDepartamentos
 {
-    public partial class Departamentos : Form
+    public partial class Listar : Form
     {
-        public Departamentos()
+        public Listar()
         {
             InitializeComponent();
-        }
-
-        private void btnListar_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
