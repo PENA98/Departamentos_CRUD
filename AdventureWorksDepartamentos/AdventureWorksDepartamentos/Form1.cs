@@ -19,7 +19,8 @@ namespace AdventureWorksDepartamentos
 
         private void btnListar_Click(object sender, EventArgs e)
         {
-
+            Listar vista = new Listar();
+            vista.Show();
         }
     }
 }
