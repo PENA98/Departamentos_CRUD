@@ -21,8 +21,8 @@ namespace AdventureWorksDepartamentos
         private void Listar_Load(object sender, EventArgs e)
         {
             // Coneccion
-            string connstring = @"server = localhost; database = AdventureWorks2014;
-                                Integrated Security = true;";
+            string connstring = @"Server=localhost; Database=AdventureWorks2014; User Id=MDPC;
+                                    Password=12345;";
 
             //
             string sql = @"Select * from HumanResources.Department";
