@@ -22,5 +22,23 @@ namespace AdventureWorksDepartamentos
             Listar vista = new Listar();
             vista.Show();
         }
+
+        private void btnCrear_Click(object sender, EventArgs e)
+        {
+            Insertar vista = new Insertar();
+            vista.Show();
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            Actualizar vista = new Actualizar();
+            vista.Show();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Eliminar vista = new Eliminar();
+            vista.Show();
+        }
     }
 }
